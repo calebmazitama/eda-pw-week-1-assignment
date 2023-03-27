@@ -1,21 +1,22 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
-
+Both dir and ls commands will list the files and directories in the current folder (directory).
 # 2 - What is the command for changing directories?
-
+The majority of command-line tools, including Windows Command Prompt, macOS Terminal, and Linux Terminal, support the "cd" command for changing directories. cd ~/Desktop/myfolder or cd ..
 # 3 - What is the command for going "up" a folder (to a parent directory)?
-
+You can use the "cd" command followed by ".." to switch your current working path to the parent directory.
 # 4 - What is a quick way to create a new folder?
-
+Depending on computer like in my Mac: To make a new folder, navigate to the place where you want it to be created, then right-click on the window's background and choose "New Folder." As an alternative, you can press "Shift + Command + N" on the computer.
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-
+You would anticipate to see a list of the files and directories contained in that folder when you execute the command "ls" in a folder holding files. The names of each file and subfolder in the folder would be displayed in the output. The command would only display the files in alphabetical order if the folder had no subdirectories.
 # 6 - What is a quick way to create a new file?
-
+To make a new folder on a Mac, press "Command + Shift + N." Then, rename the folder to include the file extension you want to use, such as ".txt" for a text file.
 # 7 - Run 'git --version' in your terminal. What is the output?
-
+Whether and which version of Git are installed on the machine will determine the results of running git --version in a terminal or command-line interface.
 # 8 - Why would you run the command 'git status'?
-
-# 9 - What does the command 'git add .' do?
-
+This command is helpful for examining your repository's current condition and figuring out what changes have been made since the last update.# 
+9 - What does the command 'git add .' do?
+The Git version control system uses the 'git add.' command to transfer all changes made in the working directory to the staging area.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+Depending on the kind of remote repository you have set up, you must use a specific command to send your committed changes to your repository on GitHub. git push, git push <remote> <branch>, git push origin main
