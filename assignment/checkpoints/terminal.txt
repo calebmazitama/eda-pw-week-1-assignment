@@ -1,21 +1,22 @@
 # Type your responses on a new line
 
 # 1 - What is the command for listing the files in the current folder (directory)?
-
+Depending on the operating system you are using, you can list the files in the present folder (directory) using a specific command "ls" on Macbook
 # 2 - What is the command for changing directories?
-
-# 3 - What is the command for going "up" a folder (to a parent directory)?
-
+Therefore, it's depending on the operating system you are using, a command-line interface will have a different command for moving directories: on Mac is cd /usr/local/bin or cd ..\..\Program Files.    
+# 3 - What is the command going "up" a folder (to a parent directory)?
+On macOS is the command to move up a folder, is also "cd .."
 # 4 - What is a quick way to create a new folder?
-
+Mac: While in the location where you want to make the new folder, press Command+Shift+N.
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-
+Since there are no files or directories in an empty folder to enumerate, the command "ls" will not produce any output. The same command will display a list of all the files in a folder that contains files, along with their names and any related metadata like permissions and file sizes.
 # 6 - What is a quick way to create a new file?
-
+Depending on the sort of file you want to create and the operating system you are using, there are various methods for doing so. To make a new file, click on the desktop or in a Finder window and then hit "Shift + Command + N." 
 # 7 - Run 'git --version' in your terminal. What is the output?
-
+In most programs, including text editors, word processors, and graphic design software, the keyboard shortcut "Ctrl + N" (on Windows and Linux) or "Command + N" (on Mac) can be used to quickly make a new file.
 # 8 - Why would you run the command 'git status'?
-
+The `git status`command is used to determine a Git repository's present status. Your working directory and staging area state are displayed, along with information about the files that have changed, been added, or been removed since the last commit.
 # 9 - What does the command 'git add .' do?
-
+The command `git add .` used in Git to add all modifications to the staging area that have been made to the current directory and its subdirectories. 
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+The type of repository and how your local environment is configured, you will need to use a specific command to send your committed changes to your GitHub repository like git push.
