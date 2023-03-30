@@ -1,6 +1,6 @@
 /* Give your page a fun background color */
 body {
-  background-color: #ff69b4;
+  background-color: #fff;
 }
 /* Make the header and footer a different color from the background */
 #header {
@@ -26,9 +26,9 @@ my-sentence {
 }
 /* Put the border around your image */
 .bordered-image {
-  border: 3px solid pink;
+  border: 75px transparent;
 }
 /* Change the font-family of your list */
 ul {
-  font-family: Arial;
+  font-family: sans-serif;
 }
